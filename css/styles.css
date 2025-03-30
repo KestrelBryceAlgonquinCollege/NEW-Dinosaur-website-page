@@ -16,12 +16,14 @@ h1, h2 {
 .dinoLeft {
     text-align: left;
     margin-right: 40px;
+    margin-left: 20px;
 }
 
 
 .dinoRight {
     text-align: right;
     margin-left: 40px;
+    margin-right: 20px;
 }
 
 /* .dinoName {
