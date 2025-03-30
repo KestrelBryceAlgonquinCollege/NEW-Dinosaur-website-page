@@ -23,18 +23,56 @@ body {
 }
 
 /* Header */
-header {
+/* header {
     position: sticky;
     top: 0;
     z-index: 99999999;
+} */
+
+/* Lily's header */
+
+header {
+    position: sticky;
+    top: 0;
+    /* Insert font family here */
 }
 
-nav {
+.sitebar_container {
+    background-image: url(/images/banner_pattern.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    background-color: var(--accentColourDARKGRN);
+    border-bottom: 4px solid var(--accentColourDARKGRN);
+    box-shadow: 0 4px 8px var(--textColourALT);
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+nav a {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: var(--textColour);
+    text-shadow: 2px 2px 0px #000000a2;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: var(--headingColour);
+    transform: scale(1.1);
+}
+
+/* nav {
     display: flex;
     justify-content: center;
     gap: 40px;
     padding: 20px;
-    /* background-color: var(--main-colour); */
+    background-color: var(--main-colour);
     box-shadow: 0 3px 3px rgba(0, 0, 0, 0.284);
 }
 
@@ -44,13 +82,13 @@ nav a {
 }
 
 nav a:hover {
-    /* font-size: 1.2em; */
+    font-size: 1.2em;
     transform: scale(1.2);
     color: #222;
 }
 
 a {
-    /* color: var(--dark-colour); */
+    color: var();
     font-weight: bold;
 }
 a:hover {
@@ -67,7 +105,7 @@ input:focus, textarea:focus {
 }
 button:active {
     background-color: var(--dark-colour);
-}
+} */
 
 
 h1, h2 {
