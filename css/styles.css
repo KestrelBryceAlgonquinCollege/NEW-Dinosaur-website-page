@@ -1,0 +1,23 @@
+/* Add fonts here later */
+
+
+/* body {
+
+
+} */
+
+
+h1, h2 {
+    font-weight: 400;
+    /* text-align: center; */
+}
+
+
+.dinoLeft {
+    text-align: left;
+}
+
+
+.dinoRight {
+    text-align: right;
+}
