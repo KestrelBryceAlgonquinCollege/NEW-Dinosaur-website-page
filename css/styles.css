@@ -220,13 +220,37 @@ h1, h2 {
     grid-template-columns: 150px 400px;
 }
 
-.six-col {
+/* Grid for dino info */
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.dinoLeftPic {
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+.dinoLeftName {
+    grid-column-start: 1;
+    grid-row-start: 2;
+}
+.dinoLeftDescription {
+    grid-column-start: 2;
+    grid-row-start: 1;
+    /* grid-row-end: 2; */
+}
+
+
+/* .six-col {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 .two-third-col {
     grid-template-columns: 2fr 1fr;
-}
+} */
 
 .sidebar {
     grid-template-columns: 200px 1fr;
@@ -263,10 +287,10 @@ h1, h2 {
         "footer footer";
 }
 
-.header-area {
+/* .header-area {
     grid-area: header;
 }
 
 .footer-area {
     grid-area: footer;
-}
+} */
