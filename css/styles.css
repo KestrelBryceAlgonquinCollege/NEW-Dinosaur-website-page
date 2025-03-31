@@ -26,6 +26,10 @@ body {
     color: var(--textColour);
 }
 
+main {
+    margin-top: 8em;
+}
+
 
 /* Lily's header */
 header {
@@ -65,20 +69,120 @@ nav a:hover {
     transform: scale(1.1);
 }
 
-h1, h2 {
+/* h1, h2 {
     font-weight: 400;
     color: var(--headingColour);
     font-family: "Tektur", serif, "Times New Roman";
-    /* text-align: center; */
+} */
+
+h1 {
+    padding: 10px;
+    border-radius: 5px;
+    color: var(--headingColour);
+    font-size: 2.5em;
+    text-shadow: 2px 2px 0px #000000a2;
+    text-align: center;
+    background-color: var(--accentColourDARKGRN);
+    border: 3px solid var(--accentColourLIGHTGRN);
+}
+h2 {
+    padding: 10px;
+    border-radius: 5px;
+    color: var(--textColour);
+    font-size: 2em;
+    text-shadow: 2px 2px 0px #000000a2;
+    text-align: center;
+    background-color: var(--accentColourDARKGRN);
+    border: 3px solid var(--accentColourLIGHTGRN);
+  
+}
+p {
+    font-size: 20px;
+    padding: 8px;
+    text-shadow: 1px 1px 0px #000000a2;
+    background-color: var(--accentColourDARKGRN);
+    border-left: 4px solid var(--accentColourLIGHTGRN);
+    border-right: 4px solid var(--accentColourLIGHTGRN);
+  
+    b {
+      color: var(--headingColour);
+    }
 }
 
-p {
-    font-weight: 200;
-    color: var(--textColour);
-    /* CHANGE THIS COLOUR LATER!!!! */
-    background-color: #84a98c;
-    font-family: "EB Garamond", serif, "Times New Roman";
+
+footer {
+    background-color: var(--siteBackdrop);
+    border-top: 4px solid var(--accentColourDARKGRN);
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-top: 20%;
+    margin-bottom: 0;
+    /* Dont ask me why this works, I have theories, but I don't wish to reopen this wound */
+    margin-left: -8%;
+    /* ^^^^ */
+    margin-right: 0;
+    padding: 0px, 0px;
+    background-size: 100%;
+  
+  
+    p.footer {
+        font-size: 20px;
+        padding: 8px;
+        text-shadow: 1px 1px 0px #000000a2;
+        background-color: var(--siteBackdrop);
+        border: none;
+    
+    
+        /* Non-header link styles */
+        a {
+            color: rgb(218, 61, 61);
+            text-decoration: none;
+        }
+    
+        a :hover {
+            border: 4px solid var(--accentColourLIGHTGRN);
+            ;
+        }
+    }
 }
+
+/* FOR ELIPSES!!! */
+.grid-container-rating {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  
+    .grid-item-image {
+        justify-content: center;
+    
+        img {
+            border-radius: 40%;
+            border: 4px solid var(--headingColour);
+        }
+    }
+}
+
+#boxOne {
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+  
+    img {
+        border-radius: 50%;
+        border: 8px solid var(--headingColour);
+    }
+}
+
+
+
+/* p {
+    font-weight: 200;
+    color: var(--textColour); */
+    /* CHANGE THIS COLOUR LATER!!!! */
+    /* background-color: #84a98c;
+    font-family: "EB Garamond", serif, "Times New Roman";
+} */
 
 
 /* .dinoLeft {
@@ -88,11 +192,11 @@ p {
 } */
 
 
-.dinoRight {
+/* .dinoRight {
     text-align: right;
     margin-left: 40px;
     margin-right: 20px;
-}
+} */
 
 
 /* Lily's footer code */
@@ -168,7 +272,7 @@ footer {
     /* grid-template-rows: auto auto auto auto; */
     grid-gap: 10px;
     /* Keeping it visible for testing purposes */
-    background-color: var(--backgroundColour);
+    /* background-color: var(--backgroundColour); */
     padding: 10px;
 }
 
