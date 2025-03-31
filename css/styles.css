@@ -111,7 +111,7 @@ h1, h2 {
     grid-template-columns: 150px 400px;
 }
 
-/* Grid for dino info */
+/* Grids for dino info */
 #grid-container {
     height: auto;
     display: grid;
@@ -124,6 +124,7 @@ h1, h2 {
     background-color: var(--backgroundColour);
     padding: 10px;
 }
+
 
 .dinoLeftPic {
     /* align-items: center; */
