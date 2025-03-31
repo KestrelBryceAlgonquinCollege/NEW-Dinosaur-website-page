@@ -94,6 +94,46 @@ p {
     margin-right: 20px;
 }
 
+
+/* Lily's footer code */
+footer {
+    background-color: var(--siteBackdrop);
+    border-top: 4px solid var(--accentColourDARKGRN);
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-top: 20%;
+    margin-bottom: 0;
+    /* Dont ask me why this works, I have theories, but I don't wish to reopen this wound */
+    margin-left: -8%;
+    /* / ^^^^ / */
+    margin-right: 0;
+    padding: 0px, 0px;
+    background-size: 100%;
+
+    p.footer {
+        font-size: 20px;
+        padding: 8px;
+        text-shadow: 1px 1px 0px #000000a2;
+        background-color: var(--siteBackdrop);
+        border: none;
+    
+    
+        /* Non-header link styles */
+        a {
+          color: rgb(218, 61, 61);
+          text-decoration: none;
+        }
+    
+        a :hover {
+          border: 4px solid var(--accentColourLIGHTGRN);
+          ;
+        }
+    }
+}
+
 /* .dinoName {
     text-align: justify center;
 } */
