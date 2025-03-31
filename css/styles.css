@@ -167,10 +167,10 @@ h1, h2 {
     text-align: right;
     margin-right: 20px;
     margin-left: 40px;
-    grid-column-start: 3;
+    grid-column-start: 2;
     grid-row-start: span 2;
 
-    grid-row-end: 2;
+    grid-row-end: 3;
 }
 
 
