@@ -75,6 +75,8 @@ h1, h2 {
 p {
     font-weight: 200;
     color: var(--textColour);
+    /* CHANGE THIS COLOUR LATER!!!! */
+    background-color: #84a98c;
     font-family: "EB Garamond", serif, "Times New Roman";
 }
 
