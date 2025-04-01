@@ -239,6 +239,41 @@ footer {
     }
 }
 
+.topnav #links {
+    display: none;
+  }
+  
+  .topnav a {
+    background-color: var(--siteBackdrop);
+      padding: 20px;
+      color: var(--textColour);
+      border: 2px solid var(--accentColourLIGHTGRN);
+      text-decoration: none;
+      font-size: 24px;
+      display: block;
+      
+  }
+  
+  .topnav a:hover {
+    background-color: var(--headingColour);
+    color: var(--textColour);
+    text-shadow: 1px 1px 0px #000000a2;
+    transform: scale(1.1);
+  }
+  
+  .topnav a.icon {
+      background-image: url(/images/burger_icon.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background: var(--textColour);
+      position: fixed;
+      padding: 24px 24px;
+      border-radius: 50%;
+      top: 8px;
+      right: 10px;
+      z-index: 200;
+  }
+
 /* .dinoName {
     text-align: justify center;
 } */
