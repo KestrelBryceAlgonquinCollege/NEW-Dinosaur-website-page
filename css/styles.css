@@ -170,7 +170,7 @@ footer {
   
     img {
         border-radius: 50%;
-        border: 8px solid var(--headingColour);
+        border: 8px solid var(--accentColourLIGHTGRN);
         max-width: 400px;
     }
 }
